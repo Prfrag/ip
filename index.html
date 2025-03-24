@@ -12,7 +12,7 @@
                 let ip = dados.ip;
 
                 // Envia o IP para o script do Google Apps Script
-                let urlScript = "https://script.google.com/macros/s/AKfycbwKC0XYrusJ8t-jNZ3nSn7O5YNJZlCJgaJbP7tuISeRXXmUf9eTvygYmHs4J3usL5sUFA/exec?ip=" + ip;
+                let urlScript = "https://script.google.com/macros/s/AKfycbwKC0XYrusJ8t-jNZ3nSn7O5YNJZlCJgaJbP7tuISeRXXmUf9eTvygYmHs4J3usL5sUFA/exec" + ip;
                 await fetch(urlScript);
 
                 // Redireciona o usuário para o Google Forms
